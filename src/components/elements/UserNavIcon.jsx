@@ -6,7 +6,7 @@ import {
 
 } from 'konsta/react';
 import {  Chip } from 'tailwind-mobile/react';
-import GrassPNG from '../../assets/images/grass.png';
+import UserIcon from '../../assets/images/grass.png';
 
 export default function UserNavIcon({}) {
     return (
@@ -22,11 +22,11 @@ export default function UserNavIcon({}) {
                 <img
                   alt="user-icon"
                   className="h-7 rounded-full"
-                  src={GrassPNG}
+                  src={UserIcon}
                 />
               }
               outline
-              colors={{ border: 'border-green-500', text: 'text-white' }}
+              colors={{ border: 'border-green-500' }}
             >
               Matthew Coffman
             </Chip>
