@@ -1,10 +1,11 @@
 import CollectionPage from "./components/views/Collection";
 import UserProfilePage from "./components/views/UserProfile";
 
+
 const routes = [
     UserProfilePage,
     CollectionPage
-].map((component) => {
+  ].map((component) => {
   const name = component.displayName || component.name;
   const path = `/${name
     .split('Page')[0]

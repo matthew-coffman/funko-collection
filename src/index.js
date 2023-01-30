@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import UserNavIcon from './components/elements/UserNavIcon';
+import ToolBar from './components/elements/ToolBar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <UserNavIcon />
     <App />
+    <ToolBar/> 
   </React.StrictMode>
 );
 

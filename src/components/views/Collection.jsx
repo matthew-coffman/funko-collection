@@ -8,7 +8,7 @@ import {
 } from 'konsta/react';
 
 const CollectionPage = () => (
-  <Page name="profile">
+  <Page name="collection">
     <BlockTitle withBlock={false}>Styled Cards</BlockTitle>
     <div className="divide-x sm:grid sm:grid-cols-6">
       <Card
